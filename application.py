@@ -12,8 +12,7 @@ from sqlalchemy import or_
 from sqlalchemy import func
 from xml.etree import ElementTree
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://ikkeilrtrvtsxb:583d61e9b761295c17b8243b0719d99c01f60b5659da2dea536bf8d799c85da4@ec2-54-225-92-1.compute-1.amazonaws.com:5432/desr46l1jo9bdr
-"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgres://ikkeilrtrvtsxb:583d61e9b761295c17b8243b0719d99c01f60b5659da2dea536bf8d799c85da4@ec2-54-225-92-1.compute-1.amazonaws.com:5432/desr46l1jo9bdr"
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
